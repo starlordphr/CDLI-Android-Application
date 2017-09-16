@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <!--<color name="colorAccent">#FF4081</color> -->
+    <color name="colorAccent">#B5BFFF</color>
     <color name="semitrans">#6f0b0b0b</color>
     <color name="white">#FFFFFF</color>
     <color name="desc_text">#dddddd</color>
     <color name="black">#000000</color>
     <color name="blue">#7474e2</color>
+
+    <color name="intro_slide1">#009688</color>
+    <color name="intro_slide2">#00BCD4</color>
+    <color name="intro_slide3">#03A9F4</color>
+    <color name="intro_slide4">#8BC34A</color>
+    <color name="intro_slide5">#607D8B</color>
+
+    <color name="dot_slide1_dark">#004D40</color>
+    <color name="dot_slide2_dark">#006064</color>
+    <color name="dot_slide3_dark">#01579B</color>
+    <color name="dot_slide4_dark">#33691E</color>
+    <color name="dot_slide5_dark">#263238</color>
+
+    <color name="dot_slide1_light">#80CBC4</color>
+    <color name="dot_slide2_light">#80DEEA</color>
+    <color name="dot_slide3_light">#81D4FA</color>
+    <color name="dot_slide4_light">#C5E1A5</color>
+    <color name="dot_slide5_light">#B0BEC5</color>
+
+
+    <color name="semitranswhite">#b8b6acac</color>
+
+    <array name="dot_active">
+        <item>@color/dot_slide1_light</item>
+        <item>@color/dot_slide2_light</item>
+        <item>@color/dot_slide3_light</item>
+        <item>@color/dot_slide4_light</item>
+        <item>@color/dot_slide5_light</item>
+    </array>
+
+    <array name="dot_inactive">
+        <item>@color/dot_slide1_dark</item>
+        <item>@color/dot_slide2_dark</item>
+        <item>@color/dot_slide3_dark</item>
+        <item>@color/dot_slide4_dark</item>
+        <item>@color/dot_slide5_dark</item>
+    </array>
 </resources>

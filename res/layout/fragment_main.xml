@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
+
     tools:context="com.assolutions.altaf.cdlitablet.MainActivity$PlaceholderFragment">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,10 +19,7 @@
             android:id="@+id/image_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/bottom_margin"
-            android:layout_marginEnd="@dimen/activity_horizontal_margin"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin" />
+             />
 
         <android.support.v4.widget.ContentLoadingProgressBar
             android:id="@+id/prog_bar"
@@ -43,7 +41,8 @@
             android:orientation="vertical"
             android:padding="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone">
 
 
                 <ScrollView

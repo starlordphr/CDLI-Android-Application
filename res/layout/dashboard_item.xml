@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumb_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!---   HIDE
+        <com.assolutions.altaf.cdlitablet.CircularTextView
+            android:id="@+id/thumb_dateview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12\njune\n2017"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+            -->
+
+        <LinearLayout android:id="@+id/thumb_date_layout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:background="@drawable/circular_dateview">
+
+            <TextView
+                android:id="@+id/thumb_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"
+                android:textColor="@color/semitranswhite"
+                android:textAlignment="center"
+                android:textSize="@dimen/thumb_year"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/thumb_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="@dimen/thumb_day"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/thumb_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oct"
+                android:textColor="@color/semitranswhite"
+                android:textAlignment="center"
+                android:textSize="@dimen/thumb_year"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
