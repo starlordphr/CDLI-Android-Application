@@ -9,13 +9,20 @@ import java.io.Serializable;
  */
 
 public class ImageData implements Serializable {
-    String name;
-    int localResource;
-    String desc;
+    String mTitle;
+    String mDate;
+    String mImageURL;
+    String mShortInfo;
+    String mFullInfo;
 
-    public ImageData(String name,int localResource,String desc){
-        this.name=name;
-        this.localResource=localResource;
-        this.desc=desc;
+    public ImageData(String mTitle, String mDate, String mImageURL, String mShortInfo, String mFullInfo) {
+        this.mTitle = mTitle;
+        this.mDate = mDate;
+        this.mImageURL = mImageURL;
+        this.mShortInfo = mShortInfo;
+        this.mFullInfo = mFullInfo;
     }
+
+
+
 }
