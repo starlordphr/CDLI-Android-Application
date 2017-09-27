@@ -15,6 +15,6 @@ CDLI's Android application
 4. Now you can tap on the image to fade away textual content.
 5. Description font size is now increased.
 5. Icon font size is now increased.
-6. Dates in the thumbanil view are now larger.
+6. Dates in the thumbnail view are now larger.
 
 -CDLI :)
