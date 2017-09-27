@@ -2,7 +2,6 @@
 CDLI's Android application
 
 # Previous Updates
-------------------------
 1. UI consistency between Android and IOS application.
 2. Batch fetching for performance improvement.
 3. Added a thumbnail view with a support for date display for easy navigation.
@@ -10,7 +9,6 @@ CDLI's Android application
 5. Beautiful CDLI splash screen.
 
 # Recent Updates
------------------------
 1. CDLI tablet now checks for internet connection before displaying main activity.
 2. Permissions are requested when the application is run for the first time.
 3. Link to the web version is now shared on the supported sharing platforms.
