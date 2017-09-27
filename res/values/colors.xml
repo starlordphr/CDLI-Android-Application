@@ -29,7 +29,7 @@
     <color name="dot_slide5_light">#B0BEC5</color>
 
 
-    <color name="semitranswhite">#b8b6acac</color>
+    <color name="semitranswhite">#ecffffff</color>
 
     <array name="dot_active">
         <item>@color/dot_slide1_light</item>

@@ -3,12 +3,12 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/shareId"
           android:title="Share"
-          android:icon="@drawable/ic_share_black_24dp"
+          android:icon="@drawable/ic_action_share"
           app:showAsAction="always"
           />
     <item android:id="@+id/dashboard"
         android:title="Share"
-        android:icon="@drawable/ic_menu_dashboard"
+        android:icon="@drawable/ic_dashboard"
         app:showAsAction="always"
         />
 </menu>

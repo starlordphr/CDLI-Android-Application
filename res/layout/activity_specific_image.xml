@@ -1,11 +1,42 @@
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
 
-    tools:context="com.assolutions.altaf.cdlitablet.MainActivity$PlaceholderFragment">
+    android:animateLayoutChanges="true"
+    tools:context="com.cdlisolutions.cdli.cdlitablet.MainActivity$PlaceholderFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!--- android:layout_height="?attr/actionBarSize" -->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/app_name">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/dummy_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        ></FrameLayout>
+
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -13,9 +44,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/black"
-        tools:context="com.assolutions.altaf.cdlitablet.MainActivity$PlaceholderFragment">
+        tools:context="com.cdlisolutions.cdli.cdlitablet.MainActivity$PlaceholderFragment">
 
-        <com.assolutions.altaf.cdlitablet.TouchImageView
+        <com.cdlisolutions.cdli.cdlitablet.TouchImageView
             android:id="@+id/spec_image_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -81,4 +112,4 @@
             </ScrollView>
         </LinearLayout>
     </FrameLayout>
-</android.support.constraint.ConstraintLayout>
+</FrameLayout>

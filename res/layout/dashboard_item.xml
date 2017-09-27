@@ -17,7 +17,7 @@
 
 
         <!---   HIDE
-        <com.assolutions.altaf.cdlitablet.CircularTextView
+        <com.assoluticdliltaf.cdlitablet.CircularTextView
             android:id="@+id/thumb_dateview"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
@@ -31,8 +31,8 @@
             -->
 
         <LinearLayout android:id="@+id/thumb_date_layout"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:padding="5dp"
